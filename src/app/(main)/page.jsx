@@ -1,7 +1,6 @@
-import FeaturedTile from "@/components/FeaturedTile";
+import TileCard from "@/components/shared/TileCard";
 import Banner from "@/components/homepage/Banner";
 import Marquee from "react-fast-marquee";
-
 
 export default function Home() {
   return (
@@ -11,7 +10,7 @@ export default function Home() {
         I can be a React component, multiple React components, or just some
         text.
       </Marquee>
-<FeaturedTile></FeaturedTile>
+      <TileCard></TileCard>
     </div>
   );
 }

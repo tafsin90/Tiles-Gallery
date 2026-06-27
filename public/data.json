@@ -21,7 +21,7 @@
     "currency": "USD",
     "dimensions": "60x120 cm",
     "material": "Marble",
-    "inStock": true
+    "inStock": false
   },
   {
     "id": "tiles-003",
