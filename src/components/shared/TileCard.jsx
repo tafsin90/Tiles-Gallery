@@ -61,7 +61,7 @@ const TileCard = () => {
                 <div className="flex items-center justify-between border-t border-base-300/70 pt-4">
                   <div></div>
                   <Link href={`/tile/${tile.id}`} data={data} className="flex items-center gap-2 font-semibold text-blue-600 border-b transition-transform duration-300 hover:translate-x-1 hover:cursor-pointer">
-                    Buy Now <FaArrowRightLong />
+                    View Details<FaArrowRightLong />
                   </Link>
                 </div>
               </div>
